@@ -1,13 +1,75 @@
+/logs/*
+
+.DS_Store
+.vscode
+.idea
+.vendor-new
+*.[56789ao]
+*.a[56789o]
+*.so
+*.pyc
+._*
+.nfs.*
+[56789a].out
+*~
+*.orig
+*.rej
+*.exe
+.*.swp
+core
+*.cgo*.go
+*.cgo*.c
+_cgo_*
+_obj
+_test
+_testmain.go
+
+/backend/VERSION.cache
+/backend/bin/
+/backendvendor/
+/backend/build.out
+/backend/doc/articles/wiki/*.bin
+/backend/goinstall.log
+/backend/last-change
+/backend/misc/cgo/life/run.out
+/backend/misc/cgo/stdio/run.out
+/backend/misc/cgo/testso/main
+/backend/pkg/
+/backend/src/*.*/
+/backend/src/cmd/cgo/zdefaultcc.go
+/backend/src/cmd/dist/dist
+/backend/src/cmd/go/internal/cfg/zdefaultcc.go
+/backend/src/cmd/go/internal/cfg/zosarch.go
+/backend/src/cmd/internal/objabi/zbootstrap.go
+/backend/src/go/build/zcgo.go
+/backend/src/go/doc/headscan
+/backend/src/runtime/internal/sys/zversion.go
+/backend/src/unicode/maketables
+/backend/test.out
+/backend/test/garbage/*.out
+/backend/test/pass.out
+/backend/test/run.out
+/backend/test/times.out
+
+/backend/package-lock.json
+/backend/yarn.lock
+
+# This file includes artifacts of Go build that should not be checked in.
+# For files created by specific development environment (e.g. editor),
+# use alternative ways to exclude files from git.
+# For example, set up .git/info/exclude or use a global .gitignore.
+
+
+
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+#css
+src/styles/css/*
 
 # Runtime data
 pids
@@ -20,12 +82,11 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
-*.lcov
 
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -44,20 +105,11 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
-# TypeScript cache
-*.tsbuildinfo
-
 # Optional npm cache directory
 .npm
 
 # Optional eslint cache
 .eslintcache
-
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
 
 # Optional REPL history
 .node_repl_history
@@ -68,37 +120,82 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+#webstorm cofig files
+.idea
+.editorconfig
+
+#ignored css files
+src/styles/css/app.css
+
+#scss cache
+.sass-cache
+
 # dotenv environment variables file
 .env
-.env.test
+#.env.local
+#.env.development.local
+#.env.test.local
+#.env.production.local
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-
-# Next.js build output
+# next.js build output
 .next
 
-# Nuxt.js build / generate output
-.nuxt
-dist
+# production
+/build
 
-# Gatsby files
-.cache/
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
+# npm lock file
+package-lock.json
 
-# vuepress build output
-.vuepress/dist
+# misc
+.DS_Store
+wallaby.js
 
-# Serverless directories
-.serverless/
+#To Kepp the chain state unchanged
+chain/
 
-# FuseBox cache
-.fusebox/
+yarn.lock
+storybook-static
 
-# DynamoDB Local files
-.dynamodb/
 
-# TernJS port file
-.tern-port
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+
+# OSX
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# VIM ignore
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+.env
+
+package-lock.json
