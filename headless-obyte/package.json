@@ -1,0 +1,41 @@
+{
+  "name": "headless-obyte",
+  "description": "Obyte headless wallet",
+  "author": "Obyte",
+  "version": "0.1.11",
+  "main": "start.js",
+  "scripts": {
+    "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json --readme ./README.md"
+  },
+  "keywords": [
+    "wallet",
+    "headless",
+    "DAG",
+    "obyte",
+    "byteball",
+    "full node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/byteball/headless-obyte.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/byteball/headless-obyte/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "ocore": "git+https://github.com/byteball/ocore.git",
+    "bitcore-lib": "^0.13.14",
+    "bitcore-mnemonic": "~1.0.0",
+    "json-rpc2": "^1.0.2",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "better-docs": "^2.3.2",
+    "jsdoc": "^3.6.5"
+  }
+}

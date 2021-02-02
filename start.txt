@@ -1,9 +1,9 @@
 ----------------------------
 ----------------------------
-cd udex-wallet
+cd wallet
 ----------------------------
 git clone https://github.com/citypayorg/udex/wallet
-cd udex-wallet
+cd wallet
 npm install
 ----------------------------
 node run.js
@@ -13,7 +13,7 @@ node run.js 1>log 2>errlog &
 
 ----------------------------
 ----------------------------
-cd udex-backend
+cd backend
 ----------------------------
 docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3
 docker run -d --name mongo-db -v /data:/data/db -p 27017:27017 mongo:3.7.7
@@ -29,11 +29,11 @@ sh start-local-testnet.sh
 
 ----------------------------
 ----------------------------
-cd udex-frontend
+cd frontend
 ----------------------------
 .env
 
-cd udex-frontend
+cd frontend
 yarn
 
 
