@@ -13,10 +13,10 @@
 		"autonomous agent"
 	],
 	"dependencies": {
-		"headless-obyte": "git+https://github.com/citypayorg/udex/headless-obyte.git",
+		"headless-obyte": "git+https://github.com/citypayorg/udex/tree/udex/headless-obyte",
 		"mongodb": "^3.5.9",
-		"ocore": "git+https://github.com/citypayorg/udex/ocore.git",
-		"rpcify": "git+https://github.com/citypayorg/udex/tree/udex/frontend/rpcify.git"
+		"ocore":  "git+https://github.com/citypayorg/udex/tree/udex/ocore",
+		"rpcify": "git+https://github.com/citypayorg/udex/tree/udex/rpcify"
 	},
 	"author": "obyte",
 	"license": "MIT"
