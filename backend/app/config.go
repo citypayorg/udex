@@ -3,7 +3,7 @@ package app
 import (
 	"fmt"
 
-	"github.com/citypayorg/udex/backend/utils"
+	"github.com/citypayorg/udex/tree/udex/backend/utils"
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/spf13/viper"
 )

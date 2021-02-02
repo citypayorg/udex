@@ -1,8 +1,8 @@
 package ws
 
 import (
-	"github.com/citypayorg/udex/backend/types"
-	"github.com/citypayorg/udex/backend/utils"
+	"github.com/citypayorg/udex/tree/udex/backend/types"
+	"github.com/citypayorg/udex/tree/udex/backend/utils"
 	logging "github.com/op/go-logging"
 )
 

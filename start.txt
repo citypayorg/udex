@@ -25,6 +25,8 @@ go version
 
 cd ~/udex/backend
 sh start-local-testnet.sh
+
+
 ----------------------------
 ----------------------------
 cd udex-frontend
@@ -41,7 +43,7 @@ yarn
 
 
 github.com/citypayorg/udex/
-github.com/citypayorg/udex/backend/server
+github.com/citypayorg/udex/tree/udex/backend/server
 
 
 

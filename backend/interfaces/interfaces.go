@@ -3,9 +3,9 @@ package interfaces
 import (
 	"time"
 
-	"github.com/citypayorg/udex/backend/rabbitmq"
-	"github.com/citypayorg/udex/backend/types"
-	"github.com/citypayorg/udex/backend/ws"
+	"github.com/citypayorg/udex/tree/udex/backend/rabbitmq"
+	"github.com/citypayorg/udex/tree/udex/backend/types"
+	"github.com/citypayorg/udex/tree/udex/backend/ws"
 	"github.com/globalsign/mgo/bson"
 )
 

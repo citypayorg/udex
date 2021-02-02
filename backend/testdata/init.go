@@ -1,8 +1,8 @@
 package testdata
 
 import (
-	"github.com/citypayorg/udex/backend/app"
-	"github.com/citypayorg/udex/backend/daos"
+	"github.com/citypayorg/udex/tree/udex/backend/app"
+	"github.com/citypayorg/udex/tree/udex/backend/daos"
 )
 
 func init() {

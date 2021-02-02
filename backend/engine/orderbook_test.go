@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/citypayorg/udex/backend/daos"
-	"github.com/citypayorg/udex/backend/rabbitmq"
-	"github.com/citypayorg/udex/backend/types"
-	"github.com/citypayorg/udex/backend/utils/testutils"
-	"github.com/citypayorg/udex/backend/utils/testutils/mocks"
+	"github.com/citypayorg/udex/tree/udex/backend/daos"
+	"github.com/citypayorg/udex/tree/udex/backend/rabbitmq"
+	"github.com/citypayorg/udex/tree/udex/backend/types"
+	"github.com/citypayorg/udex/tree/udex/backend/utils/testutils"
+	"github.com/citypayorg/udex/tree/udex/backend/utils/testutils/mocks"
 )
 
 var db *daos.Database

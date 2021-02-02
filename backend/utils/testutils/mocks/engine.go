@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	rabbitmq "github.com/citypayorg/udex/backend/rabbitmq"
+	rabbitmq "github.com/citypayorg/udex/tree/udex/backend/rabbitmq"
 	mock "github.com/stretchr/testify/mock"
 )
 

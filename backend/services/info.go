@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/citypayorg/udex/backend/interfaces"
-	"github.com/citypayorg/udex/backend/types"
-	"github.com/citypayorg/udex/backend/utils"
+	"github.com/citypayorg/udex/tree/udex/backend/interfaces"
+	"github.com/citypayorg/udex/tree/udex/backend/types"
+	"github.com/citypayorg/udex/tree/udex/backend/utils"
 	"github.com/globalsign/mgo/bson"
 )
 

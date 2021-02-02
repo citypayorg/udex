@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/citypayorg/udex/backend/app"
-	"github.com/citypayorg/udex/backend/utils"
+	"github.com/citypayorg/udex/tree/udex/backend/app"
+	"github.com/citypayorg/udex/tree/udex/backend/utils"
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 )

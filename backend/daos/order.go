@@ -3,8 +3,8 @@ package daos
 import (
 	"time"
 
-	"github.com/citypayorg/udex/backend/app"
-	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/tree/udex/backend/app"
+	"github.com/citypayorg/udex/tree/udex/backend/types"
 	mgo "github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 )

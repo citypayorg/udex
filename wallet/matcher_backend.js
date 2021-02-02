@@ -22,7 +22,7 @@ async function start() {
 		});
 
 		go.on('error', (err) => {
-			console.log(`Failed to start 'go run ${process.env.HOME}/go/src/github.com/citypayorg/udex/backend/main.go'. Did you install udex-backend?`);
+			console.log(`Failed to start 'go run ${process.env.HOME}/go/src/github.com/citypayorg/udex/tree/udex/backend/main.go'. Did you install udex-backend?`);
 		});
 
 		go.stdout.on('data', (data) => {

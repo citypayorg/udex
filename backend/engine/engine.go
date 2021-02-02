@@ -6,10 +6,10 @@ import (
 
 	sync "github.com/sasha-s/go-deadlock"
 
-	"github.com/citypayorg/udex/backend/interfaces"
-	"github.com/citypayorg/udex/backend/rabbitmq"
-	"github.com/citypayorg/udex/backend/types"
-	"github.com/citypayorg/udex/backend/utils"
+	"github.com/citypayorg/udex/tree/udex/backend/interfaces"
+	"github.com/citypayorg/udex/tree/udex/backend/rabbitmq"
+	"github.com/citypayorg/udex/tree/udex/backend/types"
+	"github.com/citypayorg/udex/tree/udex/backend/utils"
 )
 
 // Engine
